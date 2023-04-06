@@ -148,3 +148,24 @@ body{
     color: var(--branco-principal);
     
 }
+
+.rodape-links a:hover{
+    color: var(--botao-azul);
+}
+
+.rodape-links a:active{
+    color: aqua;
+}
+
+.container-botao:hover{
+    background-color: #7eb5f8;
+    color: var(--cor-de-fundo);
+}
+
+img{
+    transition: all 0.5s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
