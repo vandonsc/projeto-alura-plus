@@ -97,3 +97,54 @@ body{
 .container-descricao{
     padding: 2em;
 }
+
+.dispositivos-lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 3rem 0;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos-titulo{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.nome-dispositivos{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.rodape-lista{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+    list-style-type: none;
+    gap: 1em;
+    text-decoration: none;
+}
+
+.rodape{
+    text-align: center;
+    margin: 5rem 3rem;
+}
+
+.rodape-texto{
+    margin: 2rem;
+    font-size: 14px;
+    color: var(--cinza-secundario);
+}
+
+.rodape-logo{
+    margin-top: 6rem;
+}
+
+.rodape-links a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    
+}
